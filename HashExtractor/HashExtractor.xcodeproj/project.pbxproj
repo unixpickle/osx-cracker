@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA6E74411A3647AD005E1024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6E74401A3647AD005E1024 /* main.m */; };
+		FA6E744A1A364807005E1024 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6E74491A364807005E1024 /* User.m */; };
+		FAF2E2071A364767003CCC4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF2E2061A364767003CCC4B /* AppDelegate.m */; };
+		FAF2E2091A364767003CCC4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF2E2081A364767003CCC4B /* main.m */; };
+		FAF2E20B1A364767003CCC4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF2E20A1A364767003CCC4B /* Images.xcassets */; };
+		FAF2E20E1A364767003CCC4B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF2E20C1A364767003CCC4B /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA6E743C1A3647AD005E1024 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA6E743E1A3647AD005E1024 /* BGExtractor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BGExtractor; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6E74401A3647AD005E1024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA6E74481A364807005E1024 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		FA6E74491A364807005E1024 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		FAF2E2001A364767003CCC4B /* HashExtractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HashExtractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF2E2041A364767003CCC4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF2E2051A364767003CCC4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAF2E2061A364767003CCC4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAF2E2081A364767003CCC4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAF2E20A1A364767003CCC4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAF2E20D1A364767003CCC4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA6E743B1A3647AD005E1024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2E1FD1A364767003CCC4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA6E743F1A3647AD005E1024 /* BGExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				FA6E74401A3647AD005E1024 /* main.m */,
+				FA6E74481A364807005E1024 /* User.h */,
+				FA6E74491A364807005E1024 /* User.m */,
+			);
+			path = BGExtractor;
+			sourceTree = "<group>";
+		};
+		FAF2E1F71A364767003CCC4B = {
+			isa = PBXGroup;
+			children = (
+				FAF2E2021A364767003CCC4B /* HashExtractor */,
+				FA6E743F1A3647AD005E1024 /* BGExtractor */,
+				FAF2E2011A364767003CCC4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF2E2011A364767003CCC4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2E2001A364767003CCC4B /* HashExtractor.app */,
+				FA6E743E1A3647AD005E1024 /* BGExtractor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF2E2021A364767003CCC4B /* HashExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2E2051A364767003CCC4B /* AppDelegate.h */,
+				FAF2E2061A364767003CCC4B /* AppDelegate.m */,
+				FAF2E20A1A364767003CCC4B /* Images.xcassets */,
+				FAF2E20C1A364767003CCC4B /* MainMenu.xib */,
+				FAF2E2031A364767003CCC4B /* Supporting Files */,
+			);
+			path = HashExtractor;
+			sourceTree = "<group>";
+		};
+		FAF2E2031A364767003CCC4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2E2041A364767003CCC4B /* Info.plist */,
+				FAF2E2081A364767003CCC4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA6E743D1A3647AD005E1024 /* BGExtractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6E74421A3647AD005E1024 /* Build configuration list for PBXNativeTarget "BGExtractor" */;
+			buildPhases = (
+				FA6E743A1A3647AD005E1024 /* Sources */,
+				FA6E743B1A3647AD005E1024 /* Frameworks */,
+				FA6E743C1A3647AD005E1024 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BGExtractor;
+			productName = BGExtractor;
+			productReference = FA6E743E1A3647AD005E1024 /* BGExtractor */;
+			productType = "com.apple.product-type.tool";
+		};
+		FAF2E1FF1A364767003CCC4B /* HashExtractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF2E21D1A364767003CCC4B /* Build configuration list for PBXNativeTarget "HashExtractor" */;
+			buildPhases = (
+				FAF2E1FC1A364767003CCC4B /* Sources */,
+				FAF2E1FD1A364767003CCC4B /* Frameworks */,
+				FAF2E1FE1A364767003CCC4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HashExtractor;
+			productName = HashExtractor;
+			productReference = FAF2E2001A364767003CCC4B /* HashExtractor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF2E1F81A364767003CCC4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alex Nichol";
+				TargetAttributes = {
+					FA6E743D1A3647AD005E1024 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FAF2E1FF1A364767003CCC4B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = FAF2E1FB1A364767003CCC4B /* Build configuration list for PBXProject "HashExtractor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF2E1F71A364767003CCC4B;
+			productRefGroup = FAF2E2011A364767003CCC4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF2E1FF1A364767003CCC4B /* HashExtractor */,
+				FA6E743D1A3647AD005E1024 /* BGExtractor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF2E1FE1A364767003CCC4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF2E20B1A364767003CCC4B /* Images.xcassets in Resources */,
+				FAF2E20E1A364767003CCC4B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA6E743A1A3647AD005E1024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6E744A1A364807005E1024 /* User.m in Sources */,
+				FA6E74411A3647AD005E1024 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2E1FC1A364767003CCC4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF2E2091A364767003CCC4B /* main.m in Sources */,
+				FAF2E2071A364767003CCC4B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAF2E20C1A364767003CCC4B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF2E20D1A364767003CCC4B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA6E74431A3647AD005E1024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA6E74441A3647AD005E1024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAF2E21B1A364767003CCC4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAF2E21C1A364767003CCC4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAF2E21E1A364767003CCC4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HashExtractor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF2E21F1A364767003CCC4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HashExtractor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA6E74421A3647AD005E1024 /* Build configuration list for PBXNativeTarget "BGExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6E74431A3647AD005E1024 /* Debug */,
+				FA6E74441A3647AD005E1024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAF2E1FB1A364767003CCC4B /* Build configuration list for PBXProject "HashExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF2E21B1A364767003CCC4B /* Debug */,
+				FAF2E21C1A364767003CCC4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF2E21D1A364767003CCC4B /* Build configuration list for PBXNativeTarget "HashExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF2E21E1A364767003CCC4B /* Debug */,
+				FAF2E21F1A364767003CCC4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF2E1F81A364767003CCC4B /* Project object */;
+}
