@@ -1,3 +1,7 @@
+# I'm not working on this
+
+After realizing how much of a pointless effort this project is, I am not going to continue working on it. :(
+
 # Password Recovery Tools
 
 When this is completed, it will consist of two separate tools. The first tool will make it easy to extract password hashes from Mac OS X. The second tool will crack these hashes using brute force or dictionary search.
